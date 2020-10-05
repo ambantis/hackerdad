@@ -1,6 +1,10 @@
 # The URL the site will be built for
 base_url = "https://www.ambantis.com"
 
+title = "hacker dad"
+
+description = "Blogging about Life, the Universe, and my family."
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -11,5 +15,12 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "hyde"
+
 [extra]
-# Put all your custom variables here
+hyde_links = [
+  { url = "/about", name = "about" },
+  { url = "https://www.twitter.com/ambantis", name = "twitter" },
+  { url = "https://www.github.com/ambantis", name = "github" },
+  { url = "https://www.linkedin.com/in/alexandros-bantis-75798914", name = "linkedin" }
+]
